@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BargainsHotelSupplier\BargainHotelSupplier.csproj" />
+    <ProjectReference Include="..\CheapAwesomeDomain\CheapAwesome.Domain.csproj" />
+      <PackageReference Include="AutoMapper" Version="8.1.0" />
+
+  </ItemGroup>
+
+</Project>
